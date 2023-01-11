@@ -22,10 +22,13 @@ a{
   font-weight: bold;
 }
 form{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: white;
   width: 80%;
   max-width: 700px;
-  margin: 3rem auto;
   padding: 20px;
   border-radius: 5px;
   display: flex;
@@ -84,6 +87,11 @@ button{
   border-radius: 5px;
   font-weight: bold;
   letter-spacing: 5px;
+  transition: all 0.5s;
+}
+
+button:hover{
+  background-color: rgb(57, 178, 219);;
 }
 
 .social_medias , .register_area{
